@@ -1,5 +1,5 @@
 <?php
-include("config.php") ;
+include("config.php");
 ?>
 <nav>
 
@@ -14,7 +14,7 @@ include("config.php") ;
   <ul>
 
     <div>
-      <li><a href="index.php">Home</a></li>
+      <li><a class="active" href="index.php">Home</a></li>
     </div>
 
     <div>
@@ -22,18 +22,19 @@ include("config.php") ;
     </div>
 
     <!-- <li><a href="concerns.php">Concerns</a></li> -->
-    
+
     <div>
       <li><a href="messReg.php">MessReg</a></li>
     </div>
-    
+
     <div>
       <li><a href="qrGenerator.php">MessGenerator</a></li>
     </div>
 
     <div>
-      <li><a href='./Logics/logoutLogic.php'>LogOut</a></li>
+      <li><a href='./login.php'>Login</a></li>
     </div>
+
 
   </ul>
 

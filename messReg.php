@@ -1,11 +1,8 @@
-<?php
-include("config.php");
-include("Logics/loginLogic.php");
-
-if ($_SESSION[$name] == NULL)
+<?php 
+include("config.php") ;
+if (!$_SESSION["name"])
 {
   header("Location: login.php") ;
-  exit() ;
 }
 ?>
 
@@ -19,31 +16,27 @@ if ($_SESSION[$name] == NULL)
 <!-- body section -->
 
 <body>
-  <?php require_once('includes/navbar.php') ?>
-  <h1>Mess Reg</h1>
 
 
-  <section>
-    <?php
-    if (!$allowMessReg)
-    {
-    ?>
-      <!-- mess reg code -->
-    <?php
-    }
-    else 
-    {
-    ?>
-      <!-- default message -->
-      <div>
-        Your current Mess is <?php echo($_SESSION['name']);?>
-      </div>
+  <?php 
+  if($_SESSION["name"])
+  {
+    require_once('includes/navbar.php') ;
+  }
+  else{
+    require_once('includes/navbar2.php') ;
+  }
+  ?>
 
 
-    <?php
-    }
-    ?>
 
+  <section id="messReg">
+    <div>
+      <h1>Mess Registration is Now <span class="messRegHeadOpen">Open</span></h1>
+      <?php
+      include("Logics/messRegLogic.php") ;
+      ?>
+    </div>
   </section>
 
 

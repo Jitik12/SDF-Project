@@ -16,12 +16,13 @@ if( isset($_POST['submitBtn']))
 
   if ( $count == 1 )
   {
-    $_SESSION['name'] = $row['name'] ;
-    $_SESSION['email'] = $row['email'] ;
+    $_SESSION["name"] = $name ;
+    $_SESSION["email"] = $email ;
+    
+
 
 
     header("Location: messReg.php") ;
-    $_SESSION['authenticated'] = true;
     exit() ;
   }
   else{

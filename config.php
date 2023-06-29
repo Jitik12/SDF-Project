@@ -3,8 +3,7 @@
 
 
   // ###### context #####
-  $_SESSION['authenticated'] = false ;
-  $allowMessReg = true ;
+  $allowMessReg = false ;
 
 
 	// connect to database
@@ -13,7 +12,7 @@
   {
     die("Connection Error".mysqli_connect_error()) ;
   }
-  echo("<p>Connection Successful</p>") ;
+  echo("") ;
   
        // coming soon...
 

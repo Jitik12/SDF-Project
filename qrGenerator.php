@@ -1,5 +1,5 @@
 <?php
-require_once("config.php")
+include("config.php");
 ?>
 <!DOCTYPE html>
 
@@ -18,15 +18,17 @@ require_once("config.php")
     require_once('includes/navbar2.php');
   }
   ?>
+<section>
+  <h1>Hello Bitch</h1>
+  
+</section>
 
 
-  <section>
-    Hello Bitch this is the Mess Page, asshole
-  </section>
+
+
 
 
   <?php require_once('includes/footer.php') ?>
-
 
 </body>
 
