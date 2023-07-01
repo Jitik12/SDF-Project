@@ -24,7 +24,7 @@ include("config.php");
     <li><a href="concerns.php">Concerns</a></li>
 
     <div>
-      <li><a href="messReg.php">MessReg</a></li>
+      <li><a href="<?php echo (BASE_URL . "startScan.php") ?>">StartScan</a></li>
     </div>
 
     <div>
@@ -32,7 +32,11 @@ include("config.php");
     </div>
 
     <div>
-      <li><a href='./login.php'>Login</a></li>
+      <li><a href="allowMessReg.php">Enable Mess Registration</a></li>
+    </div>
+
+    <div>
+      <li><a href='./Logics/logoutLogic.php'>-Admin LogOut-</a></li>
     </div>
 
 

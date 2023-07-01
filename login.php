@@ -9,11 +9,7 @@
 
 <body>
   <?php
-  if ($_SESSION["name"]) {
-    require_once('includes/navbar.php');
-  } else {
-    require_once('includes/navbar2.php');
-  }
+  require_once("includes/navbar.php");
   ?>
 
 

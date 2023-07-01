@@ -12,11 +12,7 @@ include("config.php");
 
 <body>
   <?php
-  if ($_SESSION["name"]) {
-    require_once('includes/navbar.php');
-  } else {
-    require_once('includes/navbar2.php');
-  }
+  require_once("includes/navbar.php");
   ?>
 
   <section id="hero">
@@ -31,23 +27,11 @@ include("config.php");
 
           </div>
           <div class="carousel-item">
-            <img src="./static/images/m1.jpeg" class="d-block w-100 kenburns-top" alt="..." />
+            <img src="./static/images/m3.jpeg" class="d-block w-100 kenburns-top" alt="..." />
 
           </div>
           <div class="carousel-item">
-            <img src="./static/images/m1.jpeg" class="d-block w-100 kenburns-top" alt="..." />
-
-          </div>
-          <div class="carousel-item">
-            <img src="./static/images/m1.jpeg" class="d-block w-100 kenburns-top" alt="..." />
-
-          </div>
-          <div class="carousel-item">
-            <img src="./static/images/m1.jpeg" class="d-block w-100 kenburns-top" alt="..." />
-
-          </div>
-          <div class="carousel-item">
-            <img src="./static/images/m1.jpeg" class="d-block w-100 kenburns-top" alt="..." />
+            <img src="./static/images/m4.jpeg" class="d-block w-100 kenburns-top" alt="..." />
 
           </div>
         </div>
@@ -68,7 +52,7 @@ include("config.php");
     <div class="about">
       <div>
         <a href="#about">
-          <h1>About Us</h1>
+          <h1>About Us,</h1>
         </a>
       </div>
       <div>

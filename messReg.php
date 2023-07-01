@@ -1,8 +1,7 @@
-<?php 
-include("config.php") ;
-if (!$_SESSION["name"])
-{
-  header("Location: login.php") ;
+<?php
+include("config.php");
+if (!$_SESSION["name"]) {
+  header("Location: login.php");
 }
 ?>
 
@@ -18,23 +17,17 @@ if (!$_SESSION["name"])
 <body>
 
 
-  <?php 
-  if($_SESSION["name"])
-  {
-    require_once('includes/navbar.php') ;
-  }
-  else{
-    require_once('includes/navbar2.php') ;
-  }
+  <?php
+  require_once("includes/navbar.php");
   ?>
 
 
 
   <section id="messReg">
     <div>
-      <h1>Mess Registration is Now <span class="messRegHeadOpen">Open</span></h1>
+      <h1>Mess Registration</h1>
       <?php
-      include("Logics/messRegLogic.php") ;
+      include("Logics/messRegLogic.php");
       ?>
     </div>
   </section>
@@ -47,6 +40,3 @@ if (!$_SESSION["name"])
 <!-- end of body section -->
 
 </html>
-
-
-
