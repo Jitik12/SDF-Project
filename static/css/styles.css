@@ -340,10 +340,44 @@ footer .nav__ul--extra {
   align-items: center;
 }
 
-#food {
-  min-height: 0;
-}
-#food .foodBar {
+#menu {
+  min-height: 80vh;
   display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+#menu #food {
+  text-align: center;
+  min-height: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#menu #food .hero {
+  border: #0e0e0e 2px solid;
+  padding-inline: 2rem;
+  padding-block: 3rem;
+  background-color: #f5f5f5;
+  min-width: 800px;
+}
+#menu #food .dayBar {
+  display: flex;
+  justify-content: center;
   flex-direction: row;
+  gap: 1rem;
+}
+#menu #food .dayBar > * {
+  list-style: none;
+  border: 1px solid #0e0e0e;
+  padding-inline: 0.5rem;
+  padding-block: 0.2rem;
+  transition: 0.15s;
+}
+#menu #food .dayBar > *:hover {
+  background-color: #0e0e0e;
+}
+#menu #food .dayBar > *:hover a {
+  color: white;
 }/*# sourceMappingURL=styles.css.map */

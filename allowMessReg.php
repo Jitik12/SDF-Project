@@ -35,7 +35,7 @@ if ($_SESSION['name'] != "admin12") {
     </form>
 
     <p>Mess Registration : <?php 
-    if( $_SESSION['allowMessReg'] )
+    if($_SESSION['allowMessReg'] )
     {
       echo("Its ON");
     }

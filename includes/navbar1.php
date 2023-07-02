@@ -30,7 +30,6 @@ include("config.php");
     <div>
       <li><a href='./Logics/logoutLogic.php'>LogOut</a></li>
     </div>
-
   </ul>
 
 </nav>

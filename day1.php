@@ -12,10 +12,9 @@ require_once("config.php")
 <!-- end of head section -->
 
 <!-- body section -->
-
-<body>
-  <section id="food">
-    <?php require_once('includes/navbar.php') ?>
+<?php require_once('includes/navbar.php') ?>
+<section id="menu">
+  <div id="food">
 
     <?php
     $presentDay = date("Y-m-d");
@@ -24,9 +23,9 @@ require_once("config.php")
     // echo $day;
     ?>
 
-    <div class=hero style="height: 1000px;">
+    <div class="hero">
       <div class="heading">
-        <h1>TODAY MENU</h1>
+        <h2>TODAY MENU</h2>
       </div>
 
       <div class="">
@@ -116,16 +115,17 @@ require_once("config.php")
     </div>
 
 
-    Hello this is the Mess Page.
+  </div>
+  <div>
     <?php require_once('mess.php') ?>
-  </section>
+  </div>
 
 
-  <?php require_once('includes/footer.php') ?>
+  
+  
+</section>
 
-
-</body>
-
+<?php require_once('includes/footer.php') ?>
 <!-- end of body section -->
 
 </html>

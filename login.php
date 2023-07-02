@@ -28,7 +28,7 @@ require_once('includes/head_section.php')
           <input type="text" placeholder="Email..." id="email" name="email">
         </div>
         <div>
-          <label for="password">Give me your Email: </label><br>
+          <label for="password">Give me your Password: </label><br>
           <input type="password" placeholder="Password..." id="password" name="password">
         </div>
         <div>

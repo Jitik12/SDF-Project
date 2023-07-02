@@ -6,31 +6,25 @@ require_once("config.php")
 ?>
 <!DOCTYPE html>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
 
 <!-- head section -->
 <?php require_once('includes/head_section.php') ?>
 <!-- end of head section -->
 
 <!-- body section -->
+<?php require_once('includes/navbar.php') ?>
+<section id="menu">
+  <div id="food">
 
-<body>
-  <section id="food">
     <?php
     $presentdate = date("Y-m-d");
     $Date = date("Y-m-d", strtotime($presentdate . " +2 day"));
     $day = date("l", strtotime($Date));
-    echo $day;
+    // echo $day;
     ?>
 
-    <?php require_once('includes/navbar.php') ?>
-    <div class=hero style="height: 1000px;">
-      <?php echo "<div class=heading><h1>" . $day . " Menu" . "</h1></div>" ?>
+    <div class="hero">
+      <?php echo "<div class=heading><h2>" . $day . " Menu" . "</h2></div>" ?>
 
       <div class="">
         <div class="">
@@ -119,16 +113,17 @@ require_once("config.php")
     </div>
 
 
-    Hello this is the Mess Page.
+  </div>
+  <div>
     <?php require_once('mess.php') ?>
-  </section>
+  </div>
 
 
-  <?php require_once('includes/footer.php') ?>
 
 
-</body>
+</section>
 
+<?php require_once('includes/footer.php') ?>
 <!-- end of body section -->
 
 </html>

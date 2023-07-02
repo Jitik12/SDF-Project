@@ -1,15 +1,16 @@
 <?php
-include("config.php");
+// include("config.php");
 // ini_set('display_errors', 1);
 // ini_set('display_startup_errors', 1);
 // error_reporting(E_ALL);
 // Connection parameters
 $servername = "localhost";
 $username = "root";
-$password = "";
+$password = "Suhaan7#";
 $database = "project2";
 
 $name = $_SESSION["name"] ;
+$allowMessReg = $_SESSION['allowMessReg'] ;
 
 // Create a connection
 $conn = new mysqli($servername, $username, $password, $database);

@@ -34,7 +34,6 @@ include("config.php");
       <li><a href='./Logics/logoutLogic.php'>-Admin LogOut-</a></li>
     </div>
 
-
   </ul>
 
 </nav>

@@ -4,7 +4,7 @@
 
 
 	// connect to database
-  $conn = new mysqli("localhost" , "root" , "" , "project2") ;
+  $conn = new mysqli("localhost" , "root" , "Suhaan7#" , "project2") ;
   if (!$conn)
   {
     die("Connection Error".mysqli_connect_error()) ;
@@ -24,6 +24,8 @@ $sql = "SELECT * FROM messregistration" ;
 $result = mysqli_query($conn, $sql) ;
 $row = mysqli_fetch_array($result, MYSQLI_ASSOC) ;
 $allowMessReg = $row['messregistration'] ;
+$_SESSION['allowMessReg'] = $allowMessReg ;
+
 
 
 ?>

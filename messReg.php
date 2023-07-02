@@ -1,5 +1,11 @@
 <?php
+// ini_set('display_errors', 1);
+// ini_set('display_startup_errors', 1);
+// error_reporting(E_ALL);
+
+use LDAP\Result;
 include("config.php");
+
 if (!$_SESSION["name"]) {
   header("Location: login.php");
 }
