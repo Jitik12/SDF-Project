@@ -18,17 +18,12 @@ include("config.php");
     </div>
 
     <div>
-      <li><a href="mess.php">Mess</a></li>
+      <li><a href="day1.php">Menu</a></li>
     </div>
 
-    <li><a href="concerns.php">Concerns</a></li>
 
     <div>
-      <li><a href="<?php echo (BASE_URL . "startScan.php") ?>">StartScan</a></li>
-    </div>
-
-    <div>
-      <li><a href="webteam.php">WebTeam</a></li>
+      <li><a href="<?php echo ("startScan.php") ?>">StartScan</a></li>
     </div>
 
     <div>

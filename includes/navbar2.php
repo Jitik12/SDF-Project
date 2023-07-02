@@ -18,17 +18,13 @@ include("config.php");
     </div>
 
     <div>
-      <li><a href="mess.php">Mess</a></li>
+      <li><a href="day1.php">Menu</a></li>
     </div>
 
     <li><a href="concerns.php">Concerns</a></li>
 
     <div>
       <li><a href="messReg.php">MessReg</a></li>
-    </div>
-
-    <div>
-      <li><a href="webteam.php">WebTeam</a></li>
     </div>
 
     <div>

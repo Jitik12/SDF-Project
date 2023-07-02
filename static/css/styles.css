@@ -47,6 +47,10 @@ img {
   width: 100%;
 }
 
+.minH0 {
+  min-height: 0;
+}
+
 nav {
   padding-inline: 2rem;
   padding-block: 1rem;
@@ -334,4 +338,12 @@ footer .nav__ul--extra {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#food {
+  min-height: 0;
+}
+#food .foodBar {
+  display: flex;
+  flex-direction: row;
 }/*# sourceMappingURL=styles.css.map */

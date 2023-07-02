@@ -40,6 +40,9 @@ img{
   width: 100%;
 }
 
+.minH0{
+  min-height: 0;
+}
 // mixins
 
 @mixin input{
@@ -414,6 +417,15 @@ footer
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+}
+
+
+#food{
+  min-height: 0;
+  .foodBar{
+    display: flex;
+    flex-direction: row;
   }
 }
 

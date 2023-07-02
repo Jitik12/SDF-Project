@@ -6,6 +6,10 @@
 // use LDAP\Result;
 
 include("config.php");
+if ($_SESSION['name'] != "admin12") {
+  header("Location: login.php");
+  exit();
+}
 ?>
 <!DOCTYPE html>
 

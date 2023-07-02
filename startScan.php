@@ -20,19 +20,20 @@ if( $_SESSION['name'] != "admin12" )
   ?>
 
 
-  <section id="startScan">
+
+<section id="startScan">
     <div class="startScan">
-      <a class="breakfast" href="<?php echo (BASE_URL . "breakfast.php") ?>">
+      <a class="breakfast" href="<?php echo ("breakfast.php") ?>">
         <div>
           <h1>Breakfast</h1>
         </div>
       </a>
-      <a class="lunch" href="<?php echo (BASE_URL . "lunch.php") ?>">
+      <a class="lunch" href="<?php echo ("lunch.php") ?>">
         <div>
           <h1>Lunch</h1>
         </div>
       </a>
-      <a class="dinner" href="<?php echo (BASE_URL . "dinner.php") ?>">
+      <a class="dinner" href="<?php echo ("dinner.php") ?>">
         <div>
           <h1>Dinner</h1>
         </div>

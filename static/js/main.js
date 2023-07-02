@@ -18,7 +18,6 @@ const validate = () => {
     alert("Put in an Password") ;
     return false ;
   }
-  console.log("4");
 }
 const validatePupil = () => {
   let pupil = document.getElementById("pupil").value ;

@@ -3,6 +3,7 @@ require_once("config.php");
 
 if ($_SESSION['name'] == "admin12" || $_SESSION['name'] == NULL) {
   header("Location: login.php");
+  exit();
 }
 ?>
 <!DOCTYPE html>
