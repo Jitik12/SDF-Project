@@ -34,15 +34,7 @@ if ($_SESSION['name'] != "admin12") {
       <input type="submit" id="allowMessReg" name="stopMessReg" value="End Mess Registration" />
     </form>
 
-    <p>Mess Registration : <?php 
-    if($_SESSION['allowMessReg'] )
-    {
-      echo("Its ON");
-    }
-    else{
-      echo("Its OFF");
-    }
-    ?></p>
+
 
 
   </section>

@@ -1,5 +1,4 @@
 <head> <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Averia+Serif+Libre|Noto+Serif|Tangerine" rel="stylesheet"> <!-- Styling for public area -->
   <meta charset="UTF-8">
   <title>Mess @IITH</title>
   <link rel="stylesheet" href="static/css/bootstrap.min.css">
